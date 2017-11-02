@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+echo Submitting jobs step1-6 and step7
+cp 6* ..
+cp 7* ..
+cd ..
+flux-job-files/submit
