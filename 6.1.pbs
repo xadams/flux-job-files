@@ -37,4 +37,4 @@ if [ -d "$PBS_O_WORKDIR" ] ; then
 fi
 echo "Running from $(pwd)"
 
-namd2 +p 12 6.1.inp >& 6.1.log
+namd2 +p 12 step6.1_equilibration.inp >& 6.1.log
